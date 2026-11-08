@@ -4,16 +4,8 @@ group = input("Enter group: ")
 city = input("Enter city: ")
 
 age = int(input("Enter age: "))
-if 1 <= age <= 120:
-    pass
-else:
-    print("age must be between 1 and 120")
-    exit()
     
 hours_per_week = float(input("Enter preparation hours per week: "))
-if hours_per_week < 0:
-    print("hours cannot be negative.")
-    exit()
 
 favorite_subject = input("Enter favorite subject: ")
 
